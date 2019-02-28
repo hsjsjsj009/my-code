@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="test1">
+        <p>Test1</p>
+        <p>Test2</p>
+    </div>
+    <script>
+        var a =document.getElementById("test1");
+        var arr = a.childNodes;
+        for (var i = 0;i<arr.length;i++){
+            arr[i].innerHTML = "test3";
+        }
+
+    setTimeout(setText,100);
+    </script>
+</body>
+</html>
