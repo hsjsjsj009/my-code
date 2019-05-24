@@ -8,4 +8,5 @@ minsTemp = (duration + mins) % 60
 hour = (hour + ((duration + mins) // 60)) % 24
 
 
-print("{}:{}".format(hour,minsTemp))    
+print("{}:{}".format(hour,minsTemp))
+print("test")
