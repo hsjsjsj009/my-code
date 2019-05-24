@@ -13,12 +13,10 @@
     </div>
     <script>
         var a =document.getElementById("test1");
-        var arr = a.childNodes;
-        for (var i = 0;i<arr.length;i++){
-            arr[i].innerHTML = "test3";
-        }
+        var arr = a.childNodes[1].innerHTML;
+        document.getElementById("test1").innerHTML = arr;
 
-    setTimeout(setText,100);
+    setTimeout(setText,10000);
     </script>
 </body>
 </html>
